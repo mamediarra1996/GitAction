@@ -43,7 +43,7 @@
                     </excludes>
                     <image>
 
-                        <name>mamediarra/${project.artifactId}:${project.version}</name>
+                        <name>mamediarragueye/${project.artifactId}:${project.version}</name>
                     </image>
                     <docker>
                         <publishRegistry>
