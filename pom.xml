@@ -42,7 +42,6 @@
                         </exclude>
                     </excludes>
                     <image>
-
                         <name>mamediarragueye/${project.artifactId}:${project.version}</name>
                     </image>
                     <docker>
