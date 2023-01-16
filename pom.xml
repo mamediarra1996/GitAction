@@ -42,14 +42,15 @@
                         </exclude>
                     </excludes>
                     <image>
+
                         <name>mamediarragueye/${project.artifactId}:${project.version}</name>
                     </image>
                     <docker>
                         <publishRegistry>
                             <!--suppress UnresolvedMavenProperty -->
-                            <username>${docker.user}</username>
+                            <username>${DOKER-USER}</username>
                             <!--suppress UnresolvedMavenProperty -->
-                            <password>${docker.token}</password>
+                            <password>${DOCKER-TOKEN}</password>
                             <url>https://index.docker.io/v1</url>
                         </publishRegistry>
                     </docker>
